@@ -7,15 +7,15 @@
 }
 :root {
 	--primary-color: #ff7613;
-	--text-color: #ffffff;
+	--text-color: #000000;
 }
 html {
 	font-size: 10px;
 }
 body {
 	font-family: Inter, sans-serif;
-	background-color: black;
-	color: white;
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
 }
 
 /* common styles */
@@ -45,7 +45,7 @@ a {
 }
 .item_title {
 	font-size: 1.6rem;
-	color: white;
+	color: rgb(0, 0, 0);
 	font-weight: 500;
 	margin: 0.8rem 0;
 }
@@ -62,7 +62,7 @@ a {
 	margin: 0 auto;
 	display: grid;
 	padding: 5rem;
-	background: #070707;
+	background: #ffffff;
 	grid-template-columns: 1fr 1fr;
 	gap: 4rem;
 }
@@ -114,7 +114,7 @@ a {
 	max-width: 250px;
 }
 .profile_name_firstName {
-	color: white;
+	color: rgb(0, 0, 0);
 	font-weight: 200;
 	font-size: clamp(2rem, 8vw, 4rem);
 	text-transform: uppercase;
@@ -185,6 +185,21 @@ a {
 }
 .social_item svg {
 	width: 2rem;
+}
+.imgZap {
+	width: 70px;
+	height: 70px;
+}
+
+.AbreZap {
+	position: fixed;
+	bottom: 30px;
+	right: 20px;
+
+}
+.SeguraZap{
+	display: flex;
+	justify-content:end;
 }
 
 hr {
